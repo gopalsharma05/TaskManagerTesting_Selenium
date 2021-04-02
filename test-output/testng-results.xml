@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66439" started-at="2021-03-31T19:29:59Z" finished-at="2021-03-31T19:31:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66439" started-at="2021-03-31T19:29:59Z" finished-at="2021-03-31T19:31:05Z">
+      <class name="TaskManager.TaskMangerTesting">
+        <test-method status="PASS" signature="registerNewUser()[pri:0, instance:TaskManager.TaskMangerTesting@548b7f67]" name="registerNewUser" duration-ms="29969" started-at="2021-04-01T00:59:59Z" finished-at="2021-04-01T01:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:TaskManager.TaskMangerTesting@548b7f67]" name="loginToApp" duration-ms="14675" started-at="2021-04-01T01:00:29Z" depends-on-methods="TaskManager.TaskMangerTesting.registerNewUser" finished-at="2021-04-01T01:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="deleteTask()[pri:0, instance:TaskManager.TaskMangerTesting@548b7f67]" name="deleteTask" duration-ms="5255" started-at="2021-04-01T01:00:43Z" depends-on-methods="TaskManager.TaskMangerTesting.loginToApp" finished-at="2021-04-01T01:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTask -->
+        <test-method status="PASS" signature="addTask()[pri:0, instance:TaskManager.TaskMangerTesting@548b7f67]" name="addTask" duration-ms="13382" started-at="2021-04-01T01:00:49Z" depends-on-methods="TaskManager.TaskMangerTesting.deleteTask" finished-at="2021-04-01T01:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTask -->
+        <test-method status="PASS" signature="signoff()[pri:0, instance:TaskManager.TaskMangerTesting@548b7f67]" name="signoff" duration-ms="3134" started-at="2021-04-01T01:01:02Z" depends-on-methods="TaskManager.TaskMangerTesting.addTask" finished-at="2021-04-01T01:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signoff -->
+      </class> <!-- TaskManager.TaskMangerTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
